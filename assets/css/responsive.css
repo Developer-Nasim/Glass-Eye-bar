@@ -1,0 +1,462 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .mainmenu ul li a {
+        color: var(--theme-color);
+        text-transform: uppercase;
+        display: block;
+        padding: 11px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mainmenu ul li a {
+        color: var(--theme-color);
+        text-transform: uppercase;
+        display: block;
+        padding: 11px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+    .mainmenu ul { 
+        margin-right: -10px;
+    } 
+    .banner-wrp .sec_title h5:before { 
+        width: 210px; 
+        right: -225px; 
+    }
+    .banner-wrp .sec_title h5:after { 
+        width: 210px; 
+        left: -225px; 
+    }
+    .story-area.bottom-story .storys .left-content {
+        margin-right: 50px;
+    }
+    .product-details img {
+        width: 300px;
+        border: 10px solid #fff;
+        margin-right: 30px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        width: 160px;
+    }
+    .sec_title h5:before { 
+        width: 110px; 
+        right: -125px; 
+    }
+    .sec_title h5:after { 
+        width: 110px; 
+        left: -125px; 
+    }
+    .top-text h1 {
+        margin-bottom: 50px; 
+        letter-spacing: 21px;
+        font-size: 38px;
+    }
+    .storys { 
+        padding: 0 50px; 
+    }
+    .storys .left-content {
+        margin-right: 38px;
+    }
+    .sauces-area.range .all-cards .card {
+        width: 100%;
+        margin-bottom: 50px;
+      } 
+      .sidebar p img {
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+        border: 4px solid #fff;
+        margin-bottom: 15px;
+        margin-right: 10px;
+      }
+      .sidebar p {
+        display: flex;
+        letter-spacing: 2px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .product-details {
+        display: block;
+        margin-bottom: 60px;
+      }
+      .top-details h1 { 
+        font-size: 28px; 
+    }
+    .top-details h1 sup {
+        font-size: 11px;
+        top: -18px;
+    }
+    .top-details {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-area .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .logo img {
+        width: 160px;
+    }
+    .hero-content h1 {
+        font-size: 28px; 
+        width: 100%; 
+        margin-top: 40px;
+        padding-top: 20px;
+        margin-bottom: 0;
+        letter-spacing: 8px; 
+    }
+
+    .hero-content img {
+        display: block; 
+        width: 200px;
+    }
+
+    .hero-area { 
+        min-height: 400px; 
+    }
+    .contact-area {
+        background: #F0D8B7;
+        padding: 70px 0;
+    }
+    .section-title h5 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .section-title h1 {
+        margin-bottom: 50px;
+        padding-bottom: 25px;
+        border-bottom:1px solid rgba(0, 0, 0, 0.46);
+        font-weight: 400;
+        font-size: 32px;
+        letter-spacing: 2px;
+        font-family: BreeSerif-Regular;
+    }
+    .section-title { 
+        max-width: 100%; 
+    }
+    .conttacts h4 {
+        font-size: 17px;
+        margin-top: 30px;
+        border-bottom: 1px solid #00000075;
+        padding-bottom: 5px; 
+        letter-spacing: 3px;
+        padding-right:20px; 
+        text-align: center;
+    }
+    .left-conttacts {
+        padding-right: 0;
+        position: relative;
+        text-align: left;
+    }
+    .conttacts h5 {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .conttacts p {
+        font-weight: 400; 
+        font-size: 13px;
+    }
+
+    .copy-right-text p {  
+        padding: 11px 0;
+        margin-top: 30px; 
+        font-size: 13px;
+    }
+    .widget-address {
+        text-align: left;
+        margin: 50px 0;
+    }
+    .widget-form form textarea { 
+        height: 60px; 
+        margin-bottom: 0;  
+    }
+
+    .left-conttacts:after{
+        display: none;
+    }
+    .conttacts form {
+        width: 100%;
+    } 
+    .sec_title h5:before {  
+        display: none;
+    }
+    .sec_title h5:after {  
+        display: none;
+    }
+    .top-text h1 {
+        margin-bottom: 40px;
+        letter-spacing: 10px;
+        font-size: 28px;
+    }
+    .sec_title h1 { 
+        margin-bottom: 10px; 
+        font-size: 33px;
+        letter-spacing: 10px; 
+    }
+    .sec_title h5 { 
+        font-size: 14px;
+    }
+    .sauces-area {
+        padding: 60px 0;
+    }
+    .sec_title {
+        margin-bottom: 40px;
+    }
+    .all-cards {
+        display: block; 
+    }
+    .card { 
+        margin-bottom: 50px;
+    }
+    .card h4 { 
+        margin-top: 20px; 
+        font-size: 18px; 
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    .card h3 {
+        margin: 0;
+        color: #fff;
+        margin-top: 0;
+        letter-spacing: 10px;
+        font-family: BOOKOS;
+        font-size: 18px;
+    }
+    .card:last-child{
+        margin-bottom: 0px;
+    }
+    .ABOUT-AREA {
+        padding: 100px 0; 
+    }
+    .ab-img img { 
+        margin-bottom: 40px;
+    }
+    .ab-content h3 {
+        font-size: 28px; 
+        letter-spacing: 6px; 
+        padding-bottom: 25px;
+        margin-bottom: 40px;
+    }
+    .bottom-content h5 { 
+        letter-spacing: 3px; 
+    }
+    .all-blk {  
+        padding-bottom: 0px; 
+        flex-wrap: wrap;
+    }
+    .all-blk .single-blk {
+        max-width: 100%;
+        text-align: left;
+        margin-bottom: 35px;
+    }
+    .banner-wrp .sec_title h1 {
+        margin-bottom: 20px;
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+    .sec_title h5 {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    .storys {
+        display: block;
+        padding: 0 0px;
+        border-right: none;
+        border-left: none;
+    }
+    .story-area {
+        padding: 60px 0; 
+    }
+    .story-area .section-title h5 { 
+        margin-bottom: 5px;
+    }
+    .storys .left-content {
+        margin-right: 0px;
+    }
+    .storys h5 { 
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 15px; 
+        letter-spacing: 5px;
+        font-size: 18px;
+    }
+    .storys p {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .storys img {
+        border: 10px solid #fff;
+        margin-bottom: 30px;
+    }
+    .storys .left-content img:last-child {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .story-area.bottom-story .storys .left-content {
+        width: 100%;
+    }
+    .story-area.bottom-story .storys .section-title h1 { 
+        padding-bottom: 35px;
+    }
+    .story-area.bottom-story .storys .right-content {
+        width: 100%;
+    }
+    .banner-wrp .sec_title { 
+        padding-top: 24px; 
+        margin: 0;
+    }
+    .recipes-title h4 { 
+        padding-top: 10px;
+        padding-bottom: 5px;
+        letter-spacing: 10px;
+        font-size: 16px;
+    }
+    .recipes-title h5 {
+        font-size: 16px;  
+    }
+    .all-recipes {
+        display: block;  
+    }
+    .single-recipes {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .recipes-cats a { 
+        padding: 8px; 
+        letter-spacing: 0px;
+        font-size: 16px;
+    }
+    .sauces-area.range .all-cards .card {
+        width: 100%;
+        margin-bottom: 50px;
+      } 
+      .sidebar p img {
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+        border: 4px solid #fff;
+        margin-bottom: 15px;
+        margin-right: 10px;
+      }
+      .sidebar p {
+        display: flex;
+        letter-spacing: 2px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .sauces-area.range .all-cards {
+        display: flex;
+        height: 470px;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        overflow-y: scroll;
+        margin: auto;
+        padding-right: 20px;
+        border-left: 1px solid #000;
+        padding-left: 20px;
+        margin-bottom: 60px;
+    }
+    .card img { 
+        height: 250px; 
+    }
+    .product-details {
+        display: block;
+        margin-bottom: 60px;
+      }
+      .top-details h1 { 
+        font-size: 28px; 
+    }
+    .top-details h1 sup {
+        font-size: 11px;
+        top: -18px;
+    }
+    .top-details {
+        margin-top: 30px;
+    }
+    .sauces-area.range.products h5 {
+        margin-bottom: 5px;
+    }
+    .sauces-area.range.products h1 {
+        margin-bottom: 10px;
+    }
+    .product-details img {
+        width: 100%;
+        border: 10px solid #fff;
+        margin-right: 0px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .nav-tabs .nav-item a {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    div#myTabContent h3 {
+        font-size: 18px;
+    }
+    div#myTabContent p {
+        font-family: BOOKOS;
+        font-size: 14px;
+    }
+    .related-posts h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .post h3 {
+        margin-bottom: 10px;
+    }
+    .post h2 { 
+        font-size: 15px; 
+    }
+    .related-posts {
+        margin-bottom: 70px;
+    }
+    .stockists-area h1.heading { 
+        padding: 10px 0; 
+        margin-top: 85px; 
+        letter-spacing: 10px;
+        font-size: 23px;
+    }
+
+
+
+
+
+
+
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
